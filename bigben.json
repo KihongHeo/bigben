@@ -1,0 +1,62 @@
+[
+  {
+    "project": "cb-multios/build/challenges/SFTSCBSISS",
+    "file": "src/packet.c",
+    "line": 93,
+    "type": "stack-buffer-overflow",
+    "CWE": null,
+    "repository": null,
+    "report": null,
+    "detector": [
+      "AFL"
+    ]
+  },
+  {
+    "project": "cb-multios/build/challenges/SFTSCBSISS",
+    "file": "Unknown",
+    "line": -1,
+    "type": "Unknown",
+    "CWE": null,
+    "repository": null,
+    "report": null,
+    "detector": [
+      "AFL"
+    ]
+  },
+  {
+    "project": "cb-multios/build/challenges/SFTSCBSISS",
+    "file": "lib/stdlib.c",
+    "line": 252,
+    "type": "stack-buffer-overflow",
+    "CWE": null,
+    "repository": null,
+    "report": null,
+    "detector": [
+      "AFL"
+    ]
+  },
+  {
+    "project": "cb-multios/build/challenges/ShoutCTF",
+    "file": "lib/fread.c",
+    "line": 117,
+    "type": "stack-buffer-overflow",
+    "CWE": null,
+    "repository": null,
+    "report": null,
+    "detector": [
+      "AFL"
+    ]
+  },
+  {
+    "project": "cb-multios/build/challenges/H20FlowInc",
+    "file": "src/operation.c",
+    "line": 93,
+    "type": "Unknown",
+    "CWE": null,
+    "repository": null,
+    "report": null,
+    "detector": [
+      "AFL"
+    ]
+  }
+]

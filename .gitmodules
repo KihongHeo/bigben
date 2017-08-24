@@ -1,3 +1,5 @@
 [submodule "cb-multios"]
 	path = cb-multios
 	url = git@github.com:trailofbits/cb-multios.git
+[sumodule "cb-multios"]
+	branch = master

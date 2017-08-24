@@ -1,0 +1,7 @@
+.*.swp
+.*.swo
+__pycache__/
+bigben.log
+test/afl/afl_input/
+test/afl/afl_output/
+test/afl/test

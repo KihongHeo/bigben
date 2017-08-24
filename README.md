@@ -1,5 +1,16 @@
 # bigben
 A benchmark for big-code based program analysis
+
+## Getting Started
+```sh
+$ git clone --recursive git@github.com:petablox-project/bigben.git
+```
+or
+```sh
+$ git clone git@github.com:petablox-project/bigben.git
+$ ./fetch.sh
+```
+
 ## Labled Data
 All labeled data are in `bigben.json` in the form of JSON:
 ```json
@@ -16,8 +27,8 @@ All labeled data are in `bigben.json` in the form of JSON:
 ## Contents
 - [DARPA Challenges Sets](https://github.com/trailofbits/cb-multios)
 
-## Bug Labeling with [AFL Fuzzer](http://lcamtuf.coredump.cx/afl/)
+## Bug Labeling with the [AFL Fuzzer](http://lcamtuf.coredump.cx/afl/)
 ```sh
-$ export AFL_PATH= # path to AFL fuzzer
-$ ./run.py fuzz
+$ export AFL_PATH= # path to AFL
+$ ./label.py fuzz
 ```
